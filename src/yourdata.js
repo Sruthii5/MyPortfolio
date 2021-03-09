@@ -5,7 +5,8 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-
+import grocery from "./images/grocery.jpg"
+import mine from "./images/aboutme.jpg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 // import codepenIcon from "./images/codepen.svg"
@@ -29,7 +30,9 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "I can solve ",
+  headerParagraph1:"all some one of your",
+  headerParagraph2: "problems, Ok?",
 
   //Contact Emailom
   contactEmail: "sthukkani@hawk.iit.edu",
@@ -62,14 +65,13 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "EAT-FRESH", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "The application is an online grocery hub that recommends products to its users based on their food preference and their selected store. A customer can search for a product using the autocomplete search feature, view products on sale, view the top reviewed products, select products that are currently trending on twitter or filter products by category and subcategory.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      imageSrc:grocery,
+        //Project URL - Add Your Project Url Here
+      url: "https://github.com/Sruthii5/EAT-FRESH",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
@@ -127,7 +129,7 @@ export default {
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  "",
 
   //   End About Section ---------------------
 
