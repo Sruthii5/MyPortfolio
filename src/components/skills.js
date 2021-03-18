@@ -10,7 +10,7 @@ const Skills = () => {
           <div className="skills-grid">
             {data.skills.map(skill => (
               <div className="skill" key={skill.id}>
-                <img src={skill.img} alt="css"></img>
+                <img src={skill.img} alt="css" width="300" height = "500"></img>
                 <p>{skill.para}</p>
               </div>
             ))}

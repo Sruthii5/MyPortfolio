@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade"
 
 import data from "../yourdata"
 
+
 const Project = () => {
   return (
     <div className="section" id="project">
@@ -22,9 +23,11 @@ const Project = () => {
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  githubLink = {project.giturl}
                 ></Card>
               ))}
             </Fade>
+            
           </div>
         </div>
       </div>

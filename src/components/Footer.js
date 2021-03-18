@@ -27,10 +27,10 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span>
+          {/* <span>
             Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Sruthii Reddi Thukkani</a>
-          </span>
+            <a href="https://sruthiiportfolio.netlify.app">Sruthii Reddi Thukkani</a>
+          </span> */}
         </div>
       </div>
     </div>
